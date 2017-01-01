@@ -7,6 +7,7 @@ public class Cat {
   private String favoriteFood;
   private int age;
   private Person owner;
+  private boolean hasOwner;
 
   public Cat() {
   }
@@ -45,5 +46,13 @@ public class Cat {
 
   public Person getOwner() {
     return owner;
+  }
+
+  public boolean isHasOwner() {
+    return hasOwner;
+  }
+
+  public void setHasOwner(boolean hasOwner) {
+    this.hasOwner = hasOwner;
   }
 }
